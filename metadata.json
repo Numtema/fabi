@@ -1,0 +1,6 @@
+{
+  "name": "L’Officine des Anges × Fabienne Dizy Olliveaud",
+  "description": "L’Officine des Anges par Fabienne Dizy Olliveaud. Soins énergétiques, LaHoChi, massage Lemniscate, méditation, aromathérapie et créations sur mesure en Seine-Maritime.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

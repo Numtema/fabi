@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --font-editorial: var(--font-editorial), "Instrument Serif", Garamond, Georgia, serif;
+  --font-sans: var(--font-sans), "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-ivory: #F7F2E8;
+  --color-paper: #FCF8F0;
+  --color-limestone: #E8DDCA;
+  --color-sand: #D7C4A3;
+  --color-petrol: #07515B;
+  --color-petrol-deep: #063840;
+  --color-petrol-black: #092C31;
+  --color-ink: #152A34;
+  --color-olive: #7B8060;
+  --color-olive-dark: #515840;
+  --color-champagne: #C8A66A;
+  --color-gold: #C2A064;
+  --color-amber: #A35F27;
+  --color-sky: #CBEAF2;
+  --color-muted-botanical: #74776F;
+
+  --radius-control: 18px;
+  --radius-input: 22px;
+  --radius-small: 28px;
+  --radius-card: 36px;
+  --radius-image: 44px;
+  --radius-section: 56px;
+  --radius-hero: 64px;
+  --radius-monumental: 80px;
+}
+
+:root {
+  --ivory: #F7F2E8;
+  --paper: #FCF8F0;
+  --limestone: #E8DDCA;
+  --sand: #D7C4A3;
+  --petrol: #07515B;
+  --petrol-deep: #063840;
+  --petrol-black: #092C31;
+  --ink: #152A34;
+  --olive: #7B8060;
+  --olive-dark: #515840;
+  --champagne: #C8A66A;
+  --gold: #C2A064;
+  --amber: #A35F27;
+  --sky: #CBEAF2;
+  --muted: #74776F;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #092C31;
+  color: #152A34;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #092C31;
+  min-height: 100vh;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #092C31;
+}
+::-webkit-scrollbar-thumb {
+  background: #07515B;
+  border-radius: 9999px;
+  border: 2px solid #092C31;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C2A064;
+}
+
+::selection {
+  background-color: #07515B;
+  color: #F7F2E8;
+}
+
+.font-editorial {
+  font-family: var(--font-editorial), "Instrument Serif", Georgia, serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), Inter, sans-serif;
+}
